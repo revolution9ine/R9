@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>REVOLUTION9INE — Enter the City</title>
+  <meta name="description" content="Revolution9ine — This isn’t fashion. It’s a signal." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Revolution9ine Home">
+      <span class="sigil">9</span><span class="brandtext">REVOLUTION9INE</span>
+    </a>
+    <nav class="nav">
+      <a href="world.html">THE WORLD</a>
+      <a href="drops.html">TRANSMISSIONS</a>
+      <a href="nine.html">THE NINE</a>
+      <a href="initiation.html">INITIATION</a>
+      <a href="manifesto.html">MANIFESTO</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <section class="hero-inner">
+      <p class="kicker">SIGNAL ONLINE • DISTORTION STABLE</p>
+      <h1 class="glitch" data-text="ENTER THE BROKEN CITY">ENTER THE BROKEN CITY</h1>
+      <p class="sub">
+        This isn’t fashion. It’s a <span class="accent">signal</span>.
+        Wear the myth. Carry the code.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="initiation.html">JOIN THE SIGNAL</a>
+        <a class="btn" href="drops.html">VIEW TRANSMISSIONS</a>
+      </div>
+
+      <div class="panel">
+        <div class="panel-row">
+          <div class="panel-item">
+            <div class="panel-title">STATUS</div>
+            <div class="panel-value">ECHO ACTIVE</div>
+          </div>
+          <div class="panel-item">
+            <div class="panel-title">ACCESS</div>
+            <div class="panel-value">LIMITED</div>
+          </div>
+          <div class="panel-item">
+            <div class="panel-title">PROTOCOL</div>
+            <div class="panel-value">CIPHER-9</div>
+          </div>
+        </div>
+        <p class="panel-note">Tip: press <kbd>G</kbd> for glitch mode • <kbd>M</kbd> to mute/unmute ambience.</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <a class="card" href="world.html">
+        <h2>THE WORLD</h2>
+        <p>Districts, sigils, fractures, the map that moves.</p>
+        <span class="card-meta">Explore →</span>
+      </a>
+      <a class="card" href="drops.html">
+        <h2>TRANSMISSIONS</h2>
+        <p>Limited drops. Lore-bound garments. No reprints.</p>
+        <span class="card-meta">View →</span>
+      </a>
+      <a class="card" href="nine.html">
+        <h2>THE NINE</h2>
+        <p>Avatars of the signal. Powers etched in echo.</p>
+        <span class="card-meta">Meet →</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> REVOLUTION9INE</div>
+    <div class="footer-links">
+      <a href="manifesto.html">Manifesto</a>
+      <a href="initiation.html">Initiation</a>
+    </div>
+  </footer>
+
+  <audio id="ambience" loop preload="auto">
+    <!-- Optional: drop an ambience.mp3 in same folder and uncomment next line -->
+    <!-- <source src="ambience.mp3" type="audio/mpeg" /> -->
+  </audio>
+
+  <script src="app.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>REVOLUTION9INE — The World</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="sigil">9</span><span class="brandtext">REVOLUTION9INE</span></a>
+    <nav class="nav">
+      <a class="active" href="world.html">THE WORLD</a>
+      <a href="drops.html">TRANSMISSIONS</a>
+      <a href="nine.html">THE NINE</a>
+      <a href="initiation.html">INITIATION</a>
+      <a href="manifesto.html">MANIFESTO</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="glitch" data-text="THE BROKEN CITY">THE BROKEN CITY</h1>
+    <p class="lede">A living map. A fractured myth. A place that remembers your footsteps.</p>
+
+    <section class="split">
+      <div class="panel">
+        <h2>District Signals</h2>
+        <p class="muted">Replace these with your official District Sigil set when ready.</p>
+        <div class="chips">
+          <span class="chip">ASH QUARTER</span>
+          <span class="chip">NEON VEINS</span>
+          <span class="chip">GLASS RISE</span>
+          <span class="chip">ECHO DOCKS</span>
+          <span class="chip">NULL MARKET</span>
+          <span class="chip">SABLE WARDS</span>
+          <span class="chip">RIFTLINE</span>
+          <span class="chip">CROWN UNDER</span>
+          <span class="chip">THE NINTH GATE</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Core Rules of the City</h2>
+        <ul class="list">
+          <li>Nothing here is only one thing.</li>
+          <li>Every echo leaves a trace.</li>
+          <li>Power is paid in memory.</li>
+          <li>The Shadow learns your name when you lie to yourself.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Interactive Map Placeholder</h2>
+      <p class="muted">Drop an image or build a canvas map later. For now, this “map” flickers on hover.</p>
+      <div class="map" aria-label="Map placeholder"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> REVOLUTION9INE</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>REVOLUTION9INE — Transmissions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="sigil">9</span><span class="brandtext">REVOLUTION9INE</span></a>
+    <nav class="nav">
+      <a href="world.html">THE WORLD</a>
+      <a class="active" href="drops.html">TRANSMISSIONS</a>
+      <a href="nine.html">THE NINE</a>
+      <a href="initiation.html">INITIATION</a>
+      <a href="manifesto.html">MANIFESTO</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="glitch" data-text="TRANSMISSIONS">TRANSMISSIONS</h1>
+    <p class="lede">Limited drops bound to lore. When it’s gone, it becomes a rumor.</p>
+
+    <section class="panel">
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <label class="label" for="filter">Filter</label>
+          <select id="filter" class="select">
+            <option value="ALL">ALL</option>
+            <option value="ACTIVE">ACTIVE</option>
+            <option value="ARCHIVED">ARCHIVED</option>
+          </select>
+        </div>
+        <div class="toolbar-right muted" id="dropCount">—</div>
+      </div>
+
+      <div id="dropsGrid" class="cards"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> REVOLUTION9INE</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>REVOLUTION9INE — The Nine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="sigil">9</span><span class="brandtext">REVOLUTION9INE</span></a>
+    <nav class="nav">
+      <a href="world.html">THE WORLD</a>
+      <a href="drops.html">TRANSMISSIONS</a>
+      <a class="active" href="nine.html">THE NINE</a>
+      <a href="initiation.html">INITIATION</a>
+      <a href="manifesto.html">MANIFESTO</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="glitch" data-text="THE NINE">THE NINE</h1>
+    <p class="lede">Avatars of the signal. Not idols — instruments.</p>
+
+    <section class="cards">
+      <article class="card">
+        <h2>YOU</h2>
+        <p class="muted">The carrier. The breach. The question that won’t stop asking.</p>
+        <div class="card-meta">Signature: Echo-Shift</div>
+      </article>
+      <article class="card">
+        <h2>VENN</h2>
+        <p class="muted">A compass made of contradiction. Loyal to truth, allergic to comfort.</p>
+        <div class="card-meta">Signature: Pattern Sight</div>
+      </article>
+      <article class="card">
+        <h2>DIRECTOR VALE</h2>
+        <p class="muted">Protocol incarnate. Keeps the mission clean when the world isn’t.</p>
+        <div class="card-meta">Signature: Command Net</div>
+      </article>
+      <article class="card">
+        <h2>REX</h2>
+        <p class="muted">Violence with discipline. A blade that only moves when it must.</p>
+        <div class="card-meta">Signature: Breakpoint</div>
+      </article>
+      <article class="card">
+        <h2>KAI</h2>
+        <p class="muted">Speed, wit, heat. The spark that turns plans into motion.</p>
+        <div class="card-meta">Signature: Pulse Run</div>
+      </article>
+      <article class="card">
+        <h2>LEXA</h2>
+        <p class="muted">Grounding force. When minds fracture, she stitches the seams.</p>
+        <div class="card-meta">Signature: Anchor Field</div>
+      </article>
+      <article class="card">
+        <h2>ANTI-SHADOW</h2>
+        <p class="muted">Born from conflict. A friend shaped like a threat.</p>
+        <div class="card-meta">Signature: Negative Light</div>
+      </article>
+      <article class="card">
+        <h2>THE SHADOWS</h2>
+        <p class="muted">Not monsters. Mirrors. They hunt what you refuse to face.</p>
+        <div class="card-meta">Signature: Self-Devour</div>
+      </article>
+      <article class="card">
+        <h2>THE BOY</h2>
+        <p class="muted">A key wrapped in innocence. A prophecy with fingerprints.</p>
+        <div class="card-meta">Signature: Unknown</div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> REVOLUTION9INE</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>REVOLUTION9INE — Initiation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="sigil">9</span><span class="brandtext">REVOLUTION9INE</span></a>
+    <nav class="nav">
+      <a href="world.html">THE WORLD</a>
+      <a href="drops.html">TRANSMISSIONS</a>
+      <a href="nine.html">THE NINE</a>
+      <a class="active" href="initiation.html">INITIATION</a>
+      <a href="manifesto.html">MANIFESTO</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="glitch" data-text="INITIATION">INITIATION</h1>
+    <p class="lede">Not a newsletter. A doorway.</p>
+
+    <section class="panel">
+      <form class="form" id="initiationForm">
+        <label class="label" for="codename">Codename</label>
+        <input class="input" id="codename" name="codename" placeholder="e.g. ECHO-19" required />
+
+        <label class="label" for="email">Signal Address</label>
+        <input class="input" id="email" name="email" type="email" placeholder="you@domain.com" required />
+
+        <label class="label" for="district">District Affinity</label>
+        <select class="select" id="district" name="district" required>
+          <option value="">Choose…</option>
+          <option>ASH QUARTER</option>
+          <option>NEON VEINS</option>
+          <option>GLASS RISE</option>
+          <option>ECHO DOCKS</option>
+          <option>NULL MARKET</option>
+          <option>SABLE WARDS</option>
+          <option>RIFTLINE</option>
+          <option>CROWN UNDER</option>
+          <option>THE NINTH GATE</option>
+        </select>
+
+        <button class="btn primary" type="submit">COMPLETE INITIATION</button>
+        <p class="muted small" id="formMsg">No spam. Only transmissions.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> REVOLUTION9INE</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>REVOLUTION9INE — Manifesto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="sigil">9</span><span class="brandtext">REVOLUTION9INE</span></a>
+    <nav class="nav">
+      <a href="world.html">THE WORLD</a>
+      <a href="drops.html">TRANSMISSIONS</a>
+      <a href="nine.html">THE NINE</a>
+      <a href="initiation.html">INITIATION</a>
+      <a class="active" href="manifesto.html">MANIFESTO</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="glitch" data-text="MANIFESTO">MANIFESTO</h1>
+    <section class="panel prose">
+      <p>We are not a brand.</p>
+      <p>We are a signal dressed in cloth.</p>
+      <p>We reject empty symbols. We build living ones.</p>
+      <p>Every stitch carries a story. Every drop carries a code.</p>
+      <p>If you found this, you were meant to.</p>
+      <hr />
+      <p class="muted">REVOLUTION9INE — Wear the myth. Carry the code.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> REVOLUTION9INE</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+:root{
+  --bg:#050607;
+  --bg2:#0b0d10;
+  --txt:#e8e8e8;
+  --muted:#a2a7ad;
+  --accent:#ff2b6d;
+  --line:rgba(255,255,255,.10);
+  --shadow:rgba(0,0,0,.55);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  color:var(--txt);
+  background:
+    radial-gradient(1200px 800px at 20% 10%, rgba(255,43,109,.10), transparent 55%),
+    radial-gradient(1000px 700px at 85% 30%, rgba(120,80,255,.10), transparent 55%),
+    linear-gradient(180deg, var(--bg), var(--bg2));
+  overflow-x:hidden;
+}
+
+.noise{
+  pointer-events:none;
+  position:fixed; inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url(%23n)' opacity='.28'/%3E%3C/svg%3E");
+  mix-blend-mode:overlay;
+  opacity:.18;
+}
+
+.topbar{
+  position:sticky; top:0; z-index:20;
+  display:flex; align-items:center; justify-content:space-between;
+  padding:14px 18px;
+  background:rgba(5,6,7,.55);
+  backdrop-filter: blur(10px);
+  border-bottom:1px solid var(--line);
+}
+
+.brand{display:flex; gap:10px; align-items:baseline; text-decoration:none; color:var(--txt)}
+.sigil{
+  font-weight:800; font-size:26px; letter-spacing:.04em;
+  text-shadow: 0 0 18px rgba(255,43,109,.28);
+}
+.brandtext{font-weight:700; letter-spacing:.18em; font-size:13px}
+
+.nav{display:flex; gap:14px; flex-wrap:wrap; justify-content:flex-end}
+.nav a{
+  color:var(--muted);
+  text-decoration:none;
+  font-size:12px;
+  letter-spacing:.14em;
+  padding:8px 10px;
+  border:1px solid transparent;
+  border-radius:10px;
+}
+.nav a:hover{color:var(--txt); border-color:var(--line); background:rgba(255,255,255,.03)}
+.nav a.active{color:var(--txt); border-color:rgba(255,43,109,.30); background:rgba(255,43,109,.06)}
+
+.hero{padding:54px 18px 32px; max-width:1100px; margin:0 auto}
+.hero-inner{padding:26px; border:1px solid var(--line); border-radius:18px; background:rgba(0,0,0,.18); box-shadow:0 18px 70px var(--shadow)}
+.kicker{margin:0 0 10px; color:var(--muted); font-size:12px; letter-spacing:.22em}
+
+.page{padding:38px 18px 32px; max-width:1100px; margin:0 auto}
+.lede{color:var(--muted); margin-top:8px}
+
+.glitch{
+  position:relative;
+  display:inline-block;
+  font-size:42px;
+  margin:6px 0 6px;
+  letter-spacing:.06em;
+}
+.glitch::before,.glitch::after{
+  content:attr(data-text);
+  position:absolute; left:0; top:0;
+  width:100%;
+  overflow:hidden;
+  clip-path: inset(0 0 0 0);
+  opacity:.65;
+}
+.glitch::before{transform: translate(1px,0); color: rgba(120,80,255,.9)}
+.glitch::after{transform: translate(-1px,0); color: rgba(255,43,109,.85)}
+
+.sub{color:var(--txt); max-width:62ch; line-height:1.6}
+.accent{color:var(--accent)}
+
+.cta-row{display:flex; gap:12px; margin-top:18px; flex-wrap:wrap}
+.btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:12px 14px;
+  border-radius:12px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.03);
+  color:var(--txt);
+  text-decoration:none;
+  font-weight:650;
+  letter-spacing:.10em;
+  font-size:12px;
+}
+.btn:hover{background:rgba(255,255,255,.06)}
+.btn.primary{
+  border-color:rgba(255,43,109,.45);
+  background:rgba(255,43,109,.12);
+  box-shadow:0 0 28px rgba(255,43,109,.12);
+}
+
+.panel{
+  margin-top:18px;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:rgba(0,0,0,.16);
+}
+.panel-row{display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:12px}
+.panel-item{padding:12px; border:1px solid var(--line); border-radius:14px; background:rgba(255,255,255,.02)}
+.panel-title{color:var(--muted); font-size:11px; letter-spacing:.18em}
+.panel-value{margin-top:6px; font-weight:750; letter-spacing:.10em}
+.panel-note{margin:12px 0 0; color:var(--muted); font-size:12px}
+
+.grid{margin-top:18px; display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:12px}
+.cards{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:12px; margin-top:12px}
+.card{
+  padding:16px;
+  border-radius:16px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.02);
+  text-decoration:none;
+  color:var(--txt);
+  position:relative;
+  overflow:hidden;
+}
+.card:hover{background:rgba(255,255,255,.04)}
+.card h2{margin:0 0 8px; letter-spacing:.10em; font-size:16px}
+.card p{margin:0; color:var(--muted); line-height:1.55}
+.card-meta{display:block; margin-top:12px; color:var(--txt); opacity:.85; font-size:12px; letter-spacing:.12em}
+
+.split{display:grid; grid-template-columns: 1fr 1fr; gap:12px}
+
+.chips{display:flex; flex-wrap:wrap; gap:10px; margin-top:12px}
+.chip{
+  padding:9px 10px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.03);
+  font-size:11px; letter-spacing:.14em;
+}
+
+.list{margin:10px 0 0; padding-left:18px; color:var(--txt)}
+.list li{margin:8px 0; color:var(--muted)}
+
+.map{
+  height:260px;
+  border-radius:14px;
+  border:1px solid var(--line);
+  background:
+    radial-gradient(600px 260px at 20% 30%, rgba(255,43,109,.16), transparent 55%),
+    radial-gradient(500px 240px at 70% 40%, rgba(120,80,255,.14), transparent 58%),
+    linear-gradient(180deg, rgba(255,255,255,.03), rgba(0,0,0,.12));
+  transition: transform .25s ease, filter .25s ease;
+}
+.map:hover{transform: translateY(-2px); filter: saturate(1.15) contrast(1.05)}
+
+.toolbar{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap}
+.label{display:block; font-size:12px; letter-spacing:.14em; color:var(--muted); margin:8px 0 6px}
+.input,.select{
+  width:100%;
+  padding:12px 12px;
+  border-radius:12px;
+  border:1px solid var(--line);
+  background:rgba(0,0,0,.22);
+  color:var(--txt);
+  outline:none;
+}
+.select{width:auto; min-width:180px}
+.input:focus,.select:focus{border-color:rgba(255,43,109,.40); box-shadow:0 0 0 3px rgba(255,43,109,.10)}
+.form{max-width:520px}
+.small{font-size:12px}
+
+.muted{color:var(--muted)}
+.footer{
+  max-width:1100px;
+  margin:0 auto;
+  padding:26px 18px 40px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-size:12px;
+}
+.footer-links{display:flex; gap:14px}
+.footer a{color:var(--muted); text-decoration:none}
+.footer a:hover{color:var(--txt)}
+
+kbd{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size:11px;
+  padding:2px 6px;
+  border:1px solid var(--line);
+  border-bottom-color: rgba(255,255,255,.18);
+  border-radius:8px;
+  background:rgba(255,255,255,.03);
+}
+
+.prose p{font-size:16px; line-height:1.75}
+.prose hr{border:none; border-top:1px solid var(--line); margin:16px 0}
+
+@media (max-width: 900px){
+  .grid,.cards{grid-template-columns:1fr}
+  .panel-row{grid-template-columns:1fr}
+  .split{grid-template-columns:1fr}
+  .glitch{font-size:34px}
+}
+[
+  {
+    "name": "CIPHER-9 HOODIE",
+    "status": "ACTIVE",
+    "district": "NULL MARKET",
+    "lore": "A warm shell for cold truths. Worn by carriers who refuse erasure.",
+    "tag": "LIMITED DROP"
+  },
+  {
+    "name": "ECHO ARCHIVES TEE",
+    "status": "ACTIVE",
+    "district": "ECHO DOCKS",
+    "lore": "Printed with fragments that only make sense after the fall.",
+    "tag": "TRANSMISSION"
+  },
+  {
+    "name": "SHATTERED SELVES JACKET",
+    "status": "ARCHIVED",
+    "district": "GLASS RISE",
+    "lore": "A relic from the fracture—stitched to remember what you tried to forget.",
+    "tag": "ARCHIVE"
+  }
+]
+[
+  {
+    "name": "CIPHER-9 HOODIE",
+    "status": "ACTIVE",
+    "district": "NULL MARKET",
+    "lore": "A warm shell for cold truths. Worn by carriers who refuse erasure.",
+    "tag": "LIMITED DROP"
+  },
+  {
+    "name": "ECHO ARCHIVES TEE",
+    "status": "ACTIVE",
+    "district": "ECHO DOCKS",
+    "lore": "Printed with fragments that only make sense after the fall.",
+    "tag": "TRANSMISSION"
+  },
+  {
+    "name": "SHATTERED SELVES JACKET",
+    "status": "ARCHIVED",
+    "district": "GLASS RISE",
+    "lore": "A relic from the fracture—stitched to remember what you tried to forget.",
+    "tag": "ARCHIVE"
+  }
+]
+(() => {
+  // Footer year
+  const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // Glitch mode toggle
+  let glitchOn = false;
+  const setGlitch = (on) => {
+    glitchOn = on;
+    document.documentElement.style.setProperty("--glitch", on ? "1" : "0");
+    document.querySelectorAll(".glitch").forEach(h => {
+      h.style.animation = on ? "glitch 1.6s infinite" : "none";
+    });
+  };
+
+  // Ambience (optional)
+  const audio = document.getElementById("ambience");
+  let muted = true;
+  const toggleAudio = () => {
+    if (!audio) return;
+    muted = !muted;
+    audio.muted = muted;
+    if (!muted) audio.play().catch(() => {});
+  };
+
+  // Keyboard shortcuts
+  window.addEventListener("keydown", (e) => {
+    if (e.key.toLowerCase() === "g") setGlitch(!glitchOn);
+    if (e.key.toLowerCase() === "m") toggleAudio();
+  });
+
+  // Drops page loader
+  const dropsGrid = document.getElementById("dropsGrid");
+  const filter = document.getElementById("filter");
+  const dropCount = document.getElementById("dropCount");
+
+  const renderDrops = (items) => {
+    if (!dropsGrid) return;
+    dropsGrid.innerHTML = items.map(d => `
+      <article class="card">
+        <h2>${escapeHtml(d.name)}</h2>
+        <p>${escapeHtml(d.lore)}</p>
+        <span class="card-meta">${escapeHtml(d.tag)} • ${escapeHtml(d.district)} • ${escapeHtml(d.status)}</span>
+      </article>
+    `).join("");
+    if (dropCount) dropCount.textContent = `${items.length} TRANSMISSIONS`;
+  };
+
+  const escapeHtml = (str) =>
+    String(str).replace(/[&<>"']/g, (m) => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+    }[m]));
+
+  const loadDrops = async () => {
+    if (!dropsGrid) return;
+    try {
+      const res = await fetch("drops.json", { cache: "no-store" });
+      const data = await res.json();
+      let current = data;
+
+      const applyFilter = () => {
+        const v = filter?.value || "ALL";
+        if (v === "ALL") current = data;
+        else current = data.filter(x => x.status === v);
+        renderDrops(current);
+      };
+
+      if (filter) filter.addEventListener("change", applyFilter);
+      applyFilter();
+    } catch (err) {
+      dropsGrid.innerHTML = `<div class="muted">Failed to load transmissions.</div>`;
+    }
+  };
+  loadDrops();
+
+  // Initiation form (demo-only)
+  const form = document.getElementById("initiationForm");
+  const formMsg = document.getElementById("formMsg");
+  if (form) {
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const codename = document.getElementById("codename")?.value?.trim();
+      const district = document.getElementById("district")?.value;
+      if (formMsg) {
+        formMsg.textContent = `INITIATION COMPLETE • Welcome, ${codename || "CARRIER"} • ${district || "UNKNOWN DISTRICT"}`;
+      }
+      form.reset();
+    });
+  }
+})();
+
+// Optional: keyframe injected via JS-free fallback
+const style = document.createElement("style");
+style.textContent = `
+@keyframes glitch{
+  0%{filter:none}
+  15%{filter: contrast(1.08) saturate(1.1)}
+  30%{transform: translate(0,0)}
+  35%{transform: translate(0.5px,-0.5px)}
+  40%{transform: translate(-0.5px,0.5px)}
+  55%{transform: translate(0,0)}
+  70%{filter: hue-rotate(8deg)}
+  100%{filter:none}
+}`;
+document.head.appendChild(style);
+REVOLUTION9INE SITE (STATIC)
+
+Run locally:
+- Double click index.html
+Note: Some browsers block fetch() for local files. If drops page doesn't load, use a local server.
+
+Run with a local server (recommended):
+Option A (Node):
+  npx serve
+Option B (Python):
+  python -m http.server 8080
+
+Then visit:
+  http://localhost:8080
+
+Deploy:
+- Netlify: drag the folder into Netlify Deploy
+- Vercel: import as static site
